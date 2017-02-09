@@ -3,6 +3,8 @@ $(document).ready(function(){
     $(".onboarding-2").hide();
     $(".onboarding-3").hide();
     $(".onboarding-4").hide();
+    $(".confirmation").hide();
+    $(".home").hide();
     $(".loading").show();
 
     $(".loading").on( "click", function() {
@@ -28,6 +30,15 @@ $(document).ready(function(){
     $(".pbar-2").on("click", function() {
         $(".onboarding-3").hide();
         $(".onboarding-4").show();
+    });
+
+    $(".pbar-3").on("click", function() {
+        $(".onboarding-4").hide();
+        $(".home").show();
+    });
+
+    $(".send-scout").on("click", function() {
+        $(".confirmation").show();
     });
 
 });
