@@ -1,0 +1,213 @@
+body {
+	/*font-family: proxima-nova, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;;
+	font-style: light;
+	font-weight: 300;
+}
+
+
+.loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.onboarding-1 {
+	background-image: url("assets/bg.png");
+	/*height:100vh;*/
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat;
+   	background-size:contain;
+	color: white;
+	position: absolute;
+	z-index: 1;
+}
+
+.trans-bg {
+	width: 900px;
+	height: 800px;
+	font-size: 100px;
+	background-color: rgba(255, 255, 255, 0.3);
+	/*opacity: 0.2;*/
+	position: relative;
+	z-index: 3;
+	top: 51%;
+	left: 3.5%;
+}
+
+.get-started-btn {
+    background-color: #DCDCDC;
+    border: none;
+    color: black;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    z-index: 3;
+    margin-left: 270px;
+}
+
+.title-txt {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.title-txt2 {
+	padding-left: 50px;
+}
+
+.txt3 {
+	padding-top: 50px;
+	padding-left: 50px;
+	font-size: 45px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+}
+
+.girl-img {
+	width: 280px;
+	height: 476px;
+	margin-top: 450px;
+	margin-left: 400px;
+	margin-bottom:100px;
+}
+
+
+.girl-back {
+	width: 280px;
+	height: 476px;
+	margin-top: 450px;
+	margin-left: 295px;
+	margin-bottom:100px;
+}
+
+.title-blk {
+	font-size: 55px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.gmail-btn {
+	background-color: #BBDEFB;
+    border: none;
+    color: black;
+    padding: 25px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    z-index: 3;
+    margin-left: 352px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+
+.fb-btn {
+	background-color: #BBDEFB;
+    border: none;
+    color: black;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    z-index: 3;
+    margin-left: 352px;
+    border-radius: 10px;
+}
+
+.pbar-1 {
+	margin-left: 433px;
+}
+
+
+.onboarding-3 {
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat;
+		background-size:contain;
+	color: white;
+	position: absolute;
+	z-index: 1;
+}
+
+.bg-3 {
+	width: 875px;
+	height: 800px;
+	position: relative;
+	top: 3%;
+	left: 5%;
+	z-index: 5;
+	background-color: #BBDEFB;
+	border-radius: 20px;
+}
+
+.bg-4 {
+	width: 810px;
+	height: 720px;
+	position: relative;
+	top: 4%;
+	left: 3.5%;
+	z-index: 6;
+	background-color: #BBDEFB;
+	border-radius: 20px;
+	border: 2px solid white;
+}
+
+.cc-title {
+	color: black;
+	font-size: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+
+.cc-price {
+	color: black;
+	font-size: 100px;
+	padding-left: 50px;
+}
+
+.cc-txt {
+	padding-top: 30px;
+	color: black;
+	font-size: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+.cc-bullet {
+	color: black;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.cc-info {
+	color: black;
+	padding-left: 50px;
+	font-size: 50px;
+	padding-top: 70px;
+}
+
+.pbar-2 {
+	margin-left: 433px;
+	margin-top: 600px;
+}
+
+.pbar-3 {
+	margin-left: 433px;
+	margin-top: 500px;
+}
+
+.closing-txt {
+	color: black;
+	font-size: 70px;
+	text-align: center;
+}
