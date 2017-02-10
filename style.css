@@ -118,7 +118,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     /*margin-left: 352px;*/
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 10px;
 
 }
@@ -319,18 +319,36 @@ body {
 	background-color: rgba(255, 255, 255, 0.3);
 }*/
 
-.confirm {
+
+.confirmation {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 12;
+	background-color: red;
+	/*position: relative;*/
+	position: absolute;
+	border-radius: 30px;
+	background-color: white;
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	width: 972px;
+	height: 550px;
+	top: 35%;
 
 }
 
 
-.confirmation {
-	z-index: 12;
-	background-color: red;
-	/*background-color: rgba(255, 255, 255, 0.3);*/
-	width: 900px;
-	height: 500px;
+.popup {
+	display: block;
+	margin-left: 400px;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	padding-top: 130px;
+}
+
+.xbtn {
+	font-size: 55px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 50px;
 }

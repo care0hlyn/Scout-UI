@@ -41,4 +41,8 @@ $(document).ready(function(){
         $(".confirmation").show();
     });
 
+    $(".confirmation").on("click", function() {
+        $(this).hide();
+    });
+
 });
