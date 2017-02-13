@@ -22,7 +22,16 @@ body {
    	background-size:contain;
 	color: white;
 	position: absolute;
+	display: none;
 	z-index: 1;
+}
+
+.onboarding-2 {
+	display: none;
+}
+
+.onboarding-4 {
+	display: none;
 }
 
 .trans-bg {
@@ -73,12 +82,20 @@ body {
 	padding-right: 50px;
 }
 
+
+.drone-top-img {
+	margin-bottom: 0;
+	transform: scale(2);
+	position: absolute;
+	left: 458px;
+	top: 558px;
+}
+
 .girl-img {
+	margin-top: 600px;
 	width: 280px;
-	height: 476px;
-	margin-top: 450px;
-	/*margin-left: 400px;*/
-	margin-bottom:100px;
+	height: 400px;
+	margin-bottom: 100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -156,6 +173,7 @@ body {
 	color: white;
 	position: absolute;
 	z-index: 1;
+	display: none;
 }
 
 .bg-3 {
@@ -305,6 +323,7 @@ body {
 
 .home {
 	position: absolute;
+    display: none;
 }
 
 /*.confirmation {
@@ -321,7 +340,6 @@ body {
 
 
 .confirmation {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 12;
@@ -334,9 +352,32 @@ body {
 	width: 972px;
 	height: 550px;
 	top: 35%;
-
+    display: none;
 }
 
+#dummy-drone {
+    display: none;
+}
+
+#drone-1 {
+    left: 15px;
+    top: 273px;
+}
+
+#drone-2 {
+    left: 155px;
+    top: 632px;
+}
+
+#drone-3 {
+    left: 785px;
+    top: 55px;
+}
+
+#drone-4 {
+    left: 765px;
+    top: 855px;
+}
 
 .popup {
 	display: block;
@@ -351,4 +392,10 @@ body {
 	float: right;
 	padding-top: 20px;
 	padding-right: 50px;
+}
+
+.drone {
+    position: absolute;
+    transform: scale(0.50);
+    z-index: 6;
 }
