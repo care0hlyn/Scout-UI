@@ -311,6 +311,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
+	text-decoration: none;
+	text-align: center;
+	width: 275px;
+	font-weight: bold;
 }
 
 .eta {
@@ -414,5 +418,6 @@ body {
 	text-decoration: none;
 	text-align: center;
 	width: 275px;
+	font-weight: bold;
 
 }

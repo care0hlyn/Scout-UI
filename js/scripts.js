@@ -77,12 +77,12 @@ function animateLogo() {
 $(document).ready(function(){
     // $(".loading").show();
     $(".talk-to-scout").hide();
-    // $(".onboard-1").hide();
+    $(".onboard-1").show();
     $(".loading").hide();
     // $(".onboarding-2").hide();
     // $(".onboarding-3").hide();
     // $(".onboarding-4").hide();
-    
+
     $(".home").show();
 
     animateLogo();
