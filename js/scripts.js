@@ -76,6 +76,7 @@ function animateLogo() {
 
 $(document).ready(function(){
     $(".loading").show();
+    $(".talk-to-scout").hide();
 
     animateLogo();
 
@@ -119,6 +120,8 @@ $(document).ready(function(){
 
     $(".confirmation").on("click", function() {
         $(this).hide();
+        $(".send-scout").hide();
+        $(".talk-to-scout").show();
     });
 
 });
